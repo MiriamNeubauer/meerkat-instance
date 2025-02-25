@@ -51,4 +51,4 @@ VALUES (
 		1,
 		1
 	) ON CONFLICT DO NOTHING;
-INSERT INTO features (name, active) VALUES ('anonymous-login', true) ON CONFLICT DO NOTHING;
+INSERT INTO features (name, active, conference_id) VALUES ('anonymous-login', true, 1) ON CONFLICT DO NOTHING;

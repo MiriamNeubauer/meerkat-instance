@@ -22,7 +22,8 @@
     "@std/dotenv": "jsr:@std/dotenv@^0.225.2",
     "@uidotdev/usehooks": "npm:@uidotdev/usehooks@^2.4.1",
     "drizzle-kit": "npm:drizzle-kit@^0.24.0",
-    "postgres": "npm:postgres@^3.4.4"
+    "postgres": "npm:postgres@^3.4.4",
+    "lodash.throttle": "npm:lodash.throttle@^4.1.1"
   },
   "compilerOptions": {
     "lib": [
